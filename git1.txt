@@ -242,27 +242,29 @@ Objective: Pushing source code into GITHUB & collaborate team members.
 SECTION-3 (Pushing assignments to remote repository) - Steps to follow:
  
  39.	Create a github account if you do not have already.
-       If you don't already have a GitHub account, you may need to register for a new GitHub account to participate in open source while at Google. While setting up your                account, you must enable 2-Factor Authentication (2FA), as this is necessary to participate in all Google organizations.
+         search github.com and register 
+         To create an account we need to give our
+         email
+         username 
+         password
 
 40.	Login on into github account.
-                         Use the File menu, then click Options.
-                         In the Options window, select Accounts.
-                         To the right of "GitHub.com," click Sign in.
-                         In the Sign in pane, click Sign in using your browser. ...
-                         To authenticate to GitHub, type your GitHub.com credentials and click Sign in.
+            once the account created login as by giving 
+            username and password
 
 41.	Create new public repository ‘freshersbatch-oct16’.
-    you do not have any repositories associated with GitHub Desktop, you will see a "Let's get started!" view, where you can choose to create and clone a tutorial repository,       clone an existing repository from the Internet, create a new repository, or add an existing repository from your hard drive. 
+        you do not have any repositories associated with GitHub Desktop, you will see a "Let's get started!" view, where you can choose to create and clone a tutorial                   repository,       clone an existing repository from the Internet, create a new repository, or add an existing repository from your hard drive. 
+        we have a option in account to create repository
 
 42.	Commit & push any sample file to this repository under ‘Assignments’ directory
 
-                                 cd <destination folder> Create a new branch to add your file into. ...
-                                  ls. You should see the name of the file in the list shown. ...
-                                  git status. ...
-                                  git add <name of file> ...
-                                  git status. ...
-                                  git commit -m "DESCRIBE COMMIT IN A FEW WORDS" ...
-                                  git push origin <branch-name>
+                                  mkdir Assignments
+                                  git init
+                                  git add <filename>
+                                  git commit -m "text message"
+                                  git config -global user.username <username>
+                                  git remote add origin <repository url>
+                                  git push -u origin master
 
 
 SECTION-4 (Pushing source code to remote repository using Eclipse GIT plugin) - Steps to follow:
